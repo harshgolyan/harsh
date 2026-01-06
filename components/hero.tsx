@@ -15,9 +15,9 @@ export default function Hero () {
     }]
     return (
         <>
-            <div className="flex gap-6 py-10">
+            <div className="flex gap-6 py-12">
                 <Image
-                    src="/profile-pic.jpg"
+                    src="/harsh_3.png"
                     alt="Hero Image"
                     width={800}
                     height={400} 
@@ -37,7 +37,7 @@ export default function Hero () {
                     </div>
                 </div>
             </div>
-            <div className="pt-4 text-lg font-semibold text-neutral-400">
+            <div className="text-lg font-semibold text-neutral-400">
                 I&apos;m a full stack developer who builds <span className="text-neutral-800">user-focused digital experiences</span>. On frontend, I build <span className="text-neutral-800">sleak and seamless user interface</span>. On backend, I design <span className="text-neutral-800">scalable and reliable systems</span>. I also work with AI integrations to <span className="text-neutral-800">automate workflows</span> and create smart user experiences.
             </div>
         </>

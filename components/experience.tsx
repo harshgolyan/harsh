@@ -27,7 +27,7 @@ export default function WorkExperience() {
         <section className="py-12">
             <h2 className="text-3xl font-bold text-neutral-900">Work Experience</h2>
 
-            <div className="relative ml-6 py-4">
+            <div className="relative ml-6 pt-4">
                 <div className="absolute left-0 top-8 bottom-0 w-0.5 bg-neutral-300"></div>
 
                 <div className="space-y-12">
