@@ -140,7 +140,7 @@ export default function Projects() {
                 ))}
             </div>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
                 {filteredProjects.map((project, index) => (
                     <div
                         key={index}
@@ -152,7 +152,7 @@ export default function Projects() {
                                 alt={project.title}
                                 width={800}
                                 height={400}
-                                className="w-72 rounded-lg object-contain -rotate-z-12 rotate-x-45 transform-3d"
+                                className="sm:w-72 w-96 rounded-lg object-contain -rotate-z-12 rotate-x-45 transform-3d mx-auto"
                                 style={{
                                     boxShadow: "0px 0px 20px rgba(0,0,0,0.2)",
                                 }}

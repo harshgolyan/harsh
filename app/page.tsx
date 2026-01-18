@@ -6,7 +6,7 @@ import TechStack from "@/components/tech-stack";
 
 export default function Home() {
     return (
-        <div className="w-2xl border-x border-neutral-400 mx-auto px-4 h-fit">
+        <div className="md:w-2xl sm:w-xl w-lg border-x border-neutral-400 mx-auto px-4 h-fit">
             <Hero />
             <Projects />
             <WorkExperience />

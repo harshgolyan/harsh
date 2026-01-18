@@ -24,7 +24,7 @@ export default function Hero () {
                     className="size-40 rounded-lg border border-neutral-400"               
                 />
                 <div className="flex flex-col gap-2">
-                    <div className="text-3xl font-bold text-neutral-800">Sup, I&apos;m Harsh Golyan</div>
+                    <div className="sm:text-3xl text-2xl font-bold text-neutral-800">Sup, I&apos;m Harsh Golyan</div>
                     <div className="text-lg font-semibold text-neutral-600">I am Full Stack Developer</div>
                     <div>
                         <div>
